@@ -98,11 +98,41 @@ img{
 	background-repeat: no-repeat;
 }
 #home{
-	background-image: url(../images/main-bg.jpg),linear-gradient(#c9ffbf, #ffafbd);
+	background-image: url(../images/main-bg.jpg);
 	background-blend-mode: luminosity;
 	min-height: 100vh;
 }
 
 #home .page-title{
-	text-transform: none; 
+	text-transform: none;
+}
+
+
+/*モバイル版
+------------------------------*/
+
+@media(max-width: 600px){
+	.page-title{
+		font-size: 2.5rem;
+	}
+
+	/*header*/
+	.main-nav{
+		font-size: 1rem;
+		margin-top: 10px;
+	}
+
+	.main-nav li{
+		margin: 0 20px;
+	}
+
+	/*home*/
+	.home-content{
+		margin-top: 20%;
+	}
+
+	.page-header{
+		flex-direction: column;
+		align-items: center;
+	}
 }
