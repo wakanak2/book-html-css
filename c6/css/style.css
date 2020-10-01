@@ -242,7 +242,15 @@ aside p{
 
 .menu-content p{
 	font-size: 1.125rem;
-	margin: 10px 0 0 ;
+	margin: 10px 0 0;
+}
+
+.grid{
+	display: grid;
+	gap: 26px;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 6%;
+	margin-bottom: 50px;
 }
 
 /*モバイル版*/
